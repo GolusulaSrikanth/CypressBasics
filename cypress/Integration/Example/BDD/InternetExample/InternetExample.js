@@ -242,9 +242,7 @@ Then('user click on the Js Confrom button',function(){
 
 })
 And('user click on ok button in Alertpopup',function()
-{
-
-  
+{ 
   cy.contains('Click for JS Confirm').click()
 })
 And('user verify the text after alert popup Confrom',function(){
